@@ -1,2 +1,4 @@
 .godot/**
 .godot/editor/filesystem_cache10
+/.godot
+/.godot/editor
