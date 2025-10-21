@@ -1,18 +1,12 @@
-[gd_scene load_steps=5 format=3 uid="uid://dpjsp3svgphpu"]
+[gd_scene load_steps=4 format=3 uid="uid://dpjsp3svgphpu"]
 
 [ext_resource type="Script" uid="uid://ch8ftk622a4gf" path="res://Scripts/Game.gd" id="1_8uh7m"]
 [ext_resource type="PackedScene" uid="uid://chuq3tmxoa3wx" path="res://Player/Player.tscn" id="2_6uqi0"]
 [ext_resource type="Script" uid="uid://bk77ojr88gfhn" path="res://Player/player.gd" id="3_6uqi0"]
 
-[sub_resource type="QuadMesh" id="QuadMesh_ppyta"]
-
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_8uh7m")
 
 [node name="Player" parent="." instance=ExtResource("2_6uqi0")]
+position = Vector2(508, 290)
 script = ExtResource("3_6uqi0")
-
-[node name="MeshInstance2D" type="MeshInstance2D" parent="Player"]
-position = Vector2(82.25, 83.25)
-scale = Vector2(165.5, 167.5)
-mesh = SubResource("QuadMesh_ppyta")
