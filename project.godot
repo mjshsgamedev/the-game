@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="the-game"
+run/main_scene="uid://dpjsp3svgphpu"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 

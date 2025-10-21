@@ -1,4 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1760731805
+::res://::1761076403
 icon.svg::CompressedTexture2D/CompressedTexture2D::2145956654649929984::1759868393::1759868397::1::::<><><>0<>0<>08e3e48cb0e58a1f46376f774e1afba7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+Game.gd::GDScript::5332625828169736341::1761076525::0::1::::<>Node2D<><>0<>0<><>::
 test.tscn::PackedScene/PackedScene::5529582747719682357::1759868424::0::1::::<><><>0<>0<><>::
+::res://Scripts/::0
