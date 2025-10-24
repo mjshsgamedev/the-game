@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpjsp3svgphpu"]
+
+[ext_resource type="Script" uid="uid://ch8ftk622a4gf" path="res://Scripts/Game.gd" id="1_xkndl"]
+[ext_resource type="PackedScene" uid="uid://4skigfv0unl3" path="res://StartPoint/StartPoint.tscn" id="2_u44n3"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_xkndl")
+
+[node name="StartPoint" parent="." instance=ExtResource("2_u44n3")]
