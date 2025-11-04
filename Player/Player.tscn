@@ -1,9 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://chuq3tmxoa3wx"]
+[gd_scene load_steps=3 format=3 uid="uid://chuq3tmxoa3wx"]
 
-[sub_resource type="QuadMesh" id="QuadMesh_l2ndj"]
+[sub_resource type="SphereMesh" id="SphereMesh_l2ndj"]
 
-[node name="Player" type="Node2D"]
+[sub_resource type="CircleShape2D" id="CircleShape2D_l2ndj"]
+
+[node name="Player" type="RigidBody2D"]
+gravity_scale = 0.0
 
 [node name="MeshInstance2D" type="MeshInstance2D" parent="."]
 scale = Vector2(100, 100)
-mesh = SubResource("QuadMesh_l2ndj")
+mesh = SubResource("SphereMesh_l2ndj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(5, 5)
+shape = SubResource("CircleShape2D_l2ndj")
