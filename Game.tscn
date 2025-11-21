@@ -3,10 +3,9 @@
 [ext_resource type="Script" uid="uid://ch8ftk622a4gf" path="res://Scripts/Game.gd" id="1_xkndl"]
 [ext_resource type="PackedScene" uid="uid://4skigfv0unl3" path="res://StartPoint/StartPoint.tscn" id="2_u44n3"]
 
-[node name="Node2D" type="Node2D" node_paths=PackedStringArray("StartPoint", "Player")]
+[node name="Node2D" type="Node2D" node_paths=PackedStringArray("StartPoint")]
 script = ExtResource("1_xkndl")
 StartPoint = NodePath("StartPoint")
-Player = NodePath("")
 
 [node name="StartPoint" parent="." instance=ExtResource("2_u44n3")]
 position = Vector2(563, 317)
