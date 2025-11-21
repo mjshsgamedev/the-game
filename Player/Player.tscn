@@ -1,4 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://chuq3tmxoa3wx"]
+[gd_scene load_steps=4 format=3 uid="uid://chuq3tmxoa3wx"]
+
+[ext_resource type="Script" uid="uid://bk77ojr88gfhn" path="res://Player/player.gd" id="1_3qydi"]
 
 [sub_resource type="SphereMesh" id="SphereMesh_l2ndj"]
 
@@ -6,6 +8,7 @@
 
 [node name="Player" type="RigidBody2D"]
 gravity_scale = 0.0
+script = ExtResource("1_3qydi")
 
 [node name="MeshInstance2D" type="MeshInstance2D" parent="."]
 scale = Vector2(100, 100)

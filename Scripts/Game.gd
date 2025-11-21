@@ -1,8 +1,7 @@
 extends Node2D
 
 @export var StartPoint : Node2D
-
-var Player : Node2D
+@export var Player : RigidBody2D
 
 func _ready():
 	Player = preload("res://Player/Player.tscn").instantiate()
