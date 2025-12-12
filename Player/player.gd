@@ -1,10 +1,9 @@
 extends RigidBody2D
 
-@export var speed = 300.0
-
-var dampening_mul = 1 + speed / 1000
-var pivot_div = 10
-var last_direction = Vector2.ZERO
+const speed = 500.0
+const maxvel = 15000
+const pivotdiv = 4
+const dampval = 1.1
 
 func _ready() -> void:
 	pass
@@ -17,11 +16,21 @@ func _process(delta: float) -> void:
 			float(Input.is_action_pressed("mov_up")))
 	)
 	
-	if direction.x == -last_direction.x: linear_velocity.x /= pivot_div
-	if direction.y == -last_direction.y: linear_velocity.y /= pivot_div
+	#fix inaccurate speed on diagonal (WASD)
+	if absf(direction.x) + absf(direction.y) >= 2:
+		direction /= sqrt(2)
 	
-	add_constant_central_force(direction * speed)
-	linear_velocity /= dampening_mul
+	if(direction.x != 0):
+		if((direction.x > 0) != (linear_velocity.x > 0)):
+			linear_velocity.x /= -pivotdiv;
+	else:
+		if(linear_velocity.x != 0): linear_velocity.x /= dampval
+	if(direction.y != 0):
+		if((direction.y > 0) != (linear_velocity.y > 0)):
+			linear_velocity.y /= -pivotdiv;
+	else:
+		if(linear_velocity.y != 0): linear_velocity.y /= dampval
 	
-	if direction.x != 0: last_direction.x = direction.x
-	if direction.y != 0: last_direction.y = direction.y
+	#cap speed
+	if sqrt(pow(linear_velocity.x, 2) + pow(linear_velocity.y, 2)) <= maxvel:
+		linear_velocity += direction * speed * delta
