@@ -12,7 +12,7 @@ config_version=5
 
 config/name="the-game"
 run/main_scene="uid://dpjsp3svgphpu"
-config/features=PackedStringArray("4.4", "Mobile")
+config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 
 [input]
