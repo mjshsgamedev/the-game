@@ -1,11 +1,87 @@
-[gd_scene load_steps=3 format=3 uid="uid://dpjsp3svgphpu"]
+[gd_scene load_steps=5 format=3 uid="uid://dpjsp3svgphpu"]
 
 [ext_resource type="Script" uid="uid://ch8ftk622a4gf" path="res://Scripts/Game.gd" id="1_yxkqd"]
 [ext_resource type="PackedScene" uid="uid://4skigfv0unl3" path="res://StartPoint/StartPoint.tscn" id="2_d74ud"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yxkqd"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_d74ud"]
 
 [node name="Node2D" type="Node2D" node_paths=PackedStringArray("StartPoint")]
 script = ExtResource("1_yxkqd")
 StartPoint = NodePath("StartPoint")
 
 [node name="StartPoint" parent="." instance=ExtResource("2_d74ud")]
-position = Vector2(563, 317)
+position = Vector2(177, 156)
+
+[node name="testcube" type="StaticBody2D" parent="."]
+position = Vector2(15, 296.00003)
+rotation = 1.5396979
+scale = Vector2(34.898003, -4.418656)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube2" type="StaticBody2D" parent="."]
+position = Vector2(1115, 297)
+rotation = 1.5580341
+scale = Vector2(25.161232, -2.9291625)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube2"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube2"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube3" type="StaticBody2D" parent="."]
+position = Vector2(562, 3.9999995)
+rotation = -0.0015495028
+scale = Vector2(58.3678, -4.299953)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube3"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube3"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube4" type="StaticBody2D" parent="."]
+position = Vector2(706, 501)
+rotation = 1.5396979
+scale = Vector2(25.161232, -2.9291625)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube4"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube4"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube5" type="StaticBody2D" parent="."]
+position = Vector2(357.00003, 647)
+rotation = 3.1644928
+scale = Vector2(96.94487, 11.709863)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube5"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube5"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube6" type="StaticBody2D" parent="."]
+position = Vector2(428, 120)
+rotation = 1.5396979
+scale = Vector2(25.161232, -2.9291625)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube6"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube6"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
