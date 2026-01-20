@@ -4,7 +4,7 @@
 
 [sub_resource type="SphereMesh" id="SphereMesh_l2ndj"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_l2ndj"]
+[sub_resource type="CircleShape2D" id="CircleShape2D_3qydi"]
 
 [node name="Player" type="RigidBody2D"]
 gravity_scale = 0.0
@@ -15,5 +15,6 @@ scale = Vector2(100, 100)
 mesh = SubResource("SphereMesh_l2ndj")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5000019, 0)
 scale = Vector2(5, 5)
-shape = SubResource("CircleShape2D_l2ndj")
+shape = SubResource("CircleShape2D_3qydi")
