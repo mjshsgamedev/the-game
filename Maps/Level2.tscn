@@ -12,13 +12,13 @@ script = ExtResource("1_wd16v")
 StartPoint = NodePath("StartPoint")
 
 [node name="StartPoint" parent="." instance=ExtResource("2_3m7j1")]
-position = Vector2(901.99994, 252)
+position = Vector2(926.00006, 292)
 scale = Vector2(-259.7822, 2.9187012)
 
 [node name="testcube" type="StaticBody2D" parent="."]
-position = Vector2(901.9703, 1821.6106)
+position = Vector2(2243.6714, 1252.2504)
 rotation = 0.3798194
-scale = Vector2(75.281136, 7.114668)
+scale = Vector2(-189.02898, 2.2725296)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="testcube"]
 shape = SubResource("RectangleShape2D_yxkqd")
@@ -28,9 +28,9 @@ scale = Vector2(20, 20)
 mesh = SubResource("QuadMesh_d74ud")
 
 [node name="testcube2" type="StaticBody2D" parent="."]
-position = Vector2(1800.1798, -49.667984)
+position = Vector2(2809.1772, 1389.4288)
 rotation = -2.1073523
-scale = Vector2(24.28615, -2.827289)
+scale = Vector2(28.907953, 2.771171)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="testcube2"]
 shape = SubResource("RectangleShape2D_yxkqd")
@@ -40,9 +40,9 @@ scale = Vector2(20, 20)
 mesh = SubResource("QuadMesh_d74ud")
 
 [node name="testcube3" type="StaticBody2D" parent="."]
-position = Vector2(587.12683, 399.67587)
+position = Vector2(639.9999, 276.51862)
 rotation = -1.2235708
-scale = Vector2(123.73372, 4.6771493)
+scale = Vector2(32.645424, 2.6760132)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="testcube3"]
 shape = SubResource("RectangleShape2D_yxkqd")
@@ -52,9 +52,9 @@ scale = Vector2(20, 20)
 mesh = SubResource("QuadMesh_d74ud")
 
 [node name="testcube4" type="StaticBody2D" parent="."]
-position = Vector2(1681.5979, -553.93774)
+position = Vector2(1000.1596, 64.00003)
 rotation = 0.31767654
-scale = Vector2(70.49121, 2.1114252)
+scale = Vector2(27.139593, 2.0535645)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="testcube4"]
 shape = SubResource("RectangleShape2D_yxkqd")
@@ -64,9 +64,9 @@ scale = Vector2(20, 20)
 mesh = SubResource("QuadMesh_d74ud")
 
 [node name="testcube5" type="StaticBody2D" parent="."]
-position = Vector2(1057.3364, 953.7559)
+position = Vector2(2115.8667, 861.9203)
 rotation = -4.0835605
-scale = Vector2(93.57323, 11.302606)
+scale = Vector2(47.51304, 5.790521)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="testcube5"]
 shape = SubResource("RectangleShape2D_yxkqd")
@@ -76,9 +76,9 @@ scale = Vector2(20, 20)
 mesh = SubResource("QuadMesh_d74ud")
 
 [node name="testcube6" type="StaticBody2D" parent="."]
-position = Vector2(1547.0912, 1304.3966)
+position = Vector2(1113.6793, 722.9564)
 rotation = 1.8879135
-scale = Vector2(26.175812, -2.8272893)
+scale = Vector2(13.290821, -1.4484377)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="testcube6"]
 shape = SubResource("RectangleShape2D_yxkqd")
@@ -88,9 +88,9 @@ scale = Vector2(20, 20)
 mesh = SubResource("QuadMesh_d74ud")
 
 [node name="testcube7" type="StaticBody2D" parent="."]
-position = Vector2(1800.18, -49.667984)
+position = Vector2(1681.1265, 448.40094)
 rotation = -2.1073523
-scale = Vector2(24.286152, -2.9251983)
+scale = Vector2(12.331059, -1.4985623)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="testcube7"]
 shape = SubResource("RectangleShape2D_yxkqd")
