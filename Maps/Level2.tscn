@@ -135,6 +135,15 @@ shape = SubResource("RectangleShape2D_yxkqd")
 scale = Vector2(20, 20)
 mesh = SubResource("QuadMesh_d74ud")
 
+[node name="testcube22" type="StaticBody2D" parent="."]
+position = Vector2(1216.9999, 811)
+rotation = 3.3169012
+scale = Vector2(13.290821, -1.4484377)
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube22"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
 [node name="testcube7" type="StaticBody2D" parent="."]
 position = Vector2(1103, 220.00008)
 rotation = -2.1073523
