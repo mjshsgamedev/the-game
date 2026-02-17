@@ -18,12 +18,48 @@ scale = Vector2(-259.7822, 2.9187012)
 [node name="testcube" type="StaticBody2D" parent="."]
 position = Vector2(2243.6714, 1252.2504)
 rotation = 0.3798194
-scale = Vector2(-189.02898, 2.2725296)
+scale = Vector2(-101.036415, 2.6966698)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="testcube"]
 shape = SubResource("RectangleShape2D_yxkqd")
 
 [node name="MeshInstance2D" type="MeshInstance2D" parent="testcube"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube10" type="StaticBody2D" parent="."]
+position = Vector2(770, 646)
+rotation = 0.3798194
+scale = Vector2(-37.220448, -0.90752923)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube10"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube10"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube11" type="StaticBody2D" parent="."]
+position = Vector2(1174, 1184)
+rotation = 1.2701635
+scale = Vector2(-37.220448, -0.90752923)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube11"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube11"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube12" type="StaticBody2D" parent="."]
+position = Vector2(1547, 1337.0001)
+rotation = 2.4763505
+scale = Vector2(-37.220448, -0.90752923)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube12"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube12"]
 scale = Vector2(20, 20)
 mesh = SubResource("QuadMesh_d74ud")
 
@@ -36,6 +72,18 @@ scale = Vector2(28.907953, 2.771171)
 shape = SubResource("RectangleShape2D_yxkqd")
 
 [node name="MeshInstance2D" type="MeshInstance2D" parent="testcube2"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube14" type="StaticBody2D" parent="."]
+position = Vector2(3916.0002, 1219.0001)
+rotation = -0.47871864
+scale = Vector2(87.07333, 3.3236523)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube14"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube14"]
 scale = Vector2(20, 20)
 mesh = SubResource("QuadMesh_d74ud")
 
@@ -66,7 +114,7 @@ mesh = SubResource("QuadMesh_d74ud")
 [node name="testcube5" type="StaticBody2D" parent="."]
 position = Vector2(2115.8667, 861.9203)
 rotation = -4.0835605
-scale = Vector2(47.51304, 5.790521)
+scale = Vector2(32.258747, 4.3460035)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="testcube5"]
 shape = SubResource("RectangleShape2D_yxkqd")
@@ -88,7 +136,7 @@ scale = Vector2(20, 20)
 mesh = SubResource("QuadMesh_d74ud")
 
 [node name="testcube7" type="StaticBody2D" parent="."]
-position = Vector2(1681.1265, 448.40094)
+position = Vector2(1103, 220.00008)
 rotation = -2.1073523
 scale = Vector2(12.331059, -1.4985623)
 
@@ -96,5 +144,125 @@ scale = Vector2(12.331059, -1.4985623)
 shape = SubResource("RectangleShape2D_yxkqd")
 
 [node name="MeshInstance2D" type="MeshInstance2D" parent="testcube7"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube8" type="StaticBody2D" parent="."]
+position = Vector2(1532.0001, 554)
+rotation = -1.0607932
+scale = Vector2(44.457558, -6.6177025)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube8"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube8"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube9" type="StaticBody2D" parent="."]
+position = Vector2(1797, -42.000046)
+rotation = -0.14798218
+scale = Vector2(78.6244, 2.0252116)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube9"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube9"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube13" type="StaticBody2D" parent="."]
+position = Vector2(3020, 415.9999)
+rotation = -2.2749877
+scale = Vector2(79.076164, 2.6341739)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube13"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube13"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube15" type="StaticBody2D" parent="."]
+position = Vector2(4244, 605)
+rotation = -0.5025307
+scale = Vector2(87.90775, 1.8842816)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube15"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube15"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube16" type="StaticBody2D" parent="."]
+position = Vector2(4807, 490)
+rotation = -1.2219613
+scale = Vector2(39.38266, 1.3409746)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube16"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube16"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube17" type="StaticBody2D" parent="."]
+position = Vector2(4428.0005, 992.0001)
+rotation = -1.2219613
+scale = Vector2(39.38266, 1.3409746)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube17"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube17"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube18" type="StaticBody2D" parent="."]
+position = Vector2(4379.0005, 423.00012)
+rotation = -1.2219613
+scale = Vector2(39.38266, 1.3409746)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube18"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube18"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube19" type="StaticBody2D" parent="."]
+position = Vector2(3945.0005, 1310.0002)
+rotation = -1.2219613
+scale = Vector2(39.38266, 1.3409746)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube19"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube19"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube20" type="StaticBody2D" parent="."]
+position = Vector2(3969.0005, 564)
+rotation = -1.2219613
+scale = Vector2(39.38266, 1.3409746)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube20"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube20"]
+scale = Vector2(20, 20)
+mesh = SubResource("QuadMesh_d74ud")
+
+[node name="testcube21" type="StaticBody2D" parent="."]
+position = Vector2(3451.0002, 1554)
+rotation = -1.2219613
+scale = Vector2(39.38266, 1.3409746)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="testcube21"]
+shape = SubResource("RectangleShape2D_yxkqd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="testcube21"]
 scale = Vector2(20, 20)
 mesh = SubResource("QuadMesh_d74ud")
